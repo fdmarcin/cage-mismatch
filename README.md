@@ -22,9 +22,11 @@
 
 A Python tool to get a random quote and misattribute it to Nicolas Cage. Because it's the internet, and you can't trust what you're reading.
 
+CM uses a [quotesondesign API](https://quotesondesign.com/api-v4-0/), because why not design.
+
 ## TO DO
 
-- Choose a quotes API, perhaps https://quotesondesign.com/api-v4-0/
+- Figure out how to parse &#8211; &#038; and the like
 - Choose a scraper library to choose a picture of Nicolas Cage
 - Write the main script
 - Choose how to put it online. Flask?
